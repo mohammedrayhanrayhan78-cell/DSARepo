@@ -54,3 +54,32 @@
 //     }
 //     }
 // }
+// public class DAY_7{
+//     class Solution {
+//     public int forLoop(int low, int high) {
+//         int sum=0;
+//         for(int i=low;i<=high;i++){
+//             sum=sum+i;
+//         }
+//         return sum;
+//     }
+// }
+// }
+// public class DAY_7{
+//     class Solution {
+//     public int whileLoop(int d) {
+//         int sum=0;
+//         int count=0;
+//         int num=d;
+//         if(d==0){
+//         num=10;
+//         }
+//         while(count < 50){
+//             sum=sum+num;
+//             num=num+10;
+//             count++;
+//         }
+//         return sum;
+//     }
+// }
+// }
