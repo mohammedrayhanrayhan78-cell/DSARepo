@@ -1,4 +1,3 @@
-/*
 import java.util.Scanner;
 
 public class DAY_1 {
@@ -19,69 +18,3 @@ public class DAY_1 {
         scan.close();
     }
 }
-
-import java.util.Scanner;
-
-
-public class DAY_1 {
-
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter your AGE: ");
-        int Age = scan.nextInt();
-        if(Age>=18){
-            System.out.println("You are MAJOR and you can now VOTE");
-        }
-        else if(Age<18&&Age>0){
-            System.out.println("You are still a CHILD come back later when you grow up ");
-        }
-        else{
-            System.out.println("NOT a VALID age");
-        }
-        scan.close();
-    }
-}
-
-import java.util.Scanner;
-
-public class DAY_1 {
-
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter two number to find out largest amongst them : ");
-        int x = scan.nextInt();
-        int y = scan.nextInt();
-        if(x>y){
-            System.out.println("X is greatest");
-        }
-        else if(x<y){
-            System.out.println("Y is greatest");
-        }
-        else if(x==y){
-            System.out.println("X and Y are equal");
-        }
-        else{
-            System.out.println("NOT a VALID number");
-        }
-        scan.close();
-    }
-}
-*/
-import java.util.Scanner;
-
-public class DAY_1 {
-
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter a number to identify whether it is ODD or EVEN : ");
-        int x = scan.nextInt();
-        if(x%2==0){
-            System.out.println("The following number is EVEN");
-        }
-        else{
-            System.out.println("The following number is ODD");
-        }
-        scan.close();
-    }
-}
-
